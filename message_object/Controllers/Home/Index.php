@@ -9,19 +9,19 @@ class Index extends Controller
 		$this->display('Home/Index/index');
 	}
 	//段子
-	public function duanzi()
+	public function episode()
 	{
-		$this->display('Home/Index/duanzi');
+		$this->display('Home/Index/episode');
 	}
 	//版本跳转
-	public function yizpi1()
+	public function jumplist()
 	{
-		$this->display('Home/Index/yizpi1');
+		$this->display('Home/Index/jumplist');
 	}
-	//干活
-	public function ganhuo()
+	//干货
+	public function Drygoods()
 	{
-		$this->display('Home/Index/ganhuo');
+		$this->display('Home/Index/Drygoods');
 	}
 	//关于
 	public function about()
